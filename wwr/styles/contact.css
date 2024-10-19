@@ -1,3 +1,7 @@
+/* rafting.css */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -73,7 +77,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   max-width: 1200px;
-  margin: 2 auto;
+  margin: 2px auto;
   padding: 60px; 
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
