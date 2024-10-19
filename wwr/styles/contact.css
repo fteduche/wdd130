@@ -69,9 +69,33 @@ header {
     font-size: 3rem;
     margin: 0;
 }
+/* Staff profile starts here*/
+.employee-profiles {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional background color */
+}
+
+.employee {
+  text-align: center;
+  width: 30%; /* Adjust as needed */
+}
+
+.employee img {
+  width: 100%;
+  height: 300px;
+  border-radius: 50%; /* Optional: makes the images circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+}
+
+.employee caption {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
 
 /* address and map css starts here */
-
 .parent-div {
   display: flex;
   justify-content: space-between;
