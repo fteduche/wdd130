@@ -94,7 +94,10 @@ header {
   margin-top: 10px;
   font-weight: bold;
 }
-
+.employee-title {
+  text-align: center;
+  padding: 20px;
+}
 /* address and map css starts here */
 .parent-div {
   display: flex;
