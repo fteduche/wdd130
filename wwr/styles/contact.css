@@ -1,0 +1,239 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo-box img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  nav {
+    margin-right: 50px;
+  }
+  
+  nav ul.navigation {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul.navigation li {
+    display: inline;
+    margin-left: 0px;
+  }
+  
+  nav ul.navigation li a {
+    color: rgb(1, 72, 6);
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(89, 184, 95);
+  }
+  
+  nav ul.navigation li a:hover,
+  nav ul.navigation li a.current {
+    background-color: #00b925;
+  }
+
+  /*banner css  starts here*/
+
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero-msg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-msg h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* address and map css starts here */
+
+.parent-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 2 auto;
+  padding: 60px; 
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.child-div {
+  width: 45%;
+}
+
+.map {
+  width: 45%;
+}
+
+.child-div h2, .child-div h3, .child-div p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.map iframe {
+  width: 100%;
+  height: 234px;
+  border: none;
+}
+
+/* Form css starts here */
+
+/* New container class for the form section */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Match the existing body background color */
+}
+
+.bg {
+  width: 100%;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-data {
+  flex-basis: 48%;
+  margin-bottom: 20px;
+}
+
+.input-data label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-data input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.enquiry, .msg, .newsletter {
+  margin-bottom: 20px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  flex-basis: 32%;
+}
+
+.msg label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.newsletter label {
+  font-weight: bold;
+}
+
+.contact_btn {
+  text-align: center;
+}
+
+.contact_btn button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact_btn button:hover {
+  background-color: #555;
+}
+.parent {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+  height: 100vh;          /* Full viewport height */
+}
+
+.child {
+  width: 50%;             /* Example width */
+  background-color: lightgray; /* Example background color */
+  padding: 20px;          /* Example padding */
+  text-align: center;     /* Example text alignment */
+}
+
+/* footer starts here */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+}
+
+
+.sociallinks {
+  text-align: right;
+  width: 100%;
+
+}
+.sociallinks img{
+  width: 30px;
+  height: 30px;
+}
