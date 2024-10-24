@@ -33,15 +33,15 @@ header {
   }
   
   nav ul.navigation li a {
-    color: rgb(1, 72, 6);
+    color: navy;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: rgb(89, 184, 95);
+    background-color: #69a1f0;
   }
   
   nav ul.navigation li a:hover,
   nav ul.navigation li a.current {
-    background-color: #00b925;
+    background-color: #69a1f0;
   }
 
   /*banner css  starts here*/
